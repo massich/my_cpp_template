@@ -5,3 +5,7 @@
 TEST_CASE( "the answer of life" ) {
   REQUIRE( 42 == toto );
 }
+
+TEST_CASE( "check that it prints" ) {
+  print("hi", 42, "toto");
+}
